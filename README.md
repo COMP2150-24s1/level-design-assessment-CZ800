@@ -47,36 +47,47 @@ You should restructure the headings below to match the order they appear in your
 
 ### 2.1. Passthrough Platforms
 The passthrough platform is the first 'obstacle' the player faces when they start the game. In the level, the platform serves as more of a 'stepping-stone' that an obstacle, letting the player jump up and begin the first section properly. The passthrough platform was included to introduce players to the mechanic of jumping through platforms to land on them and gain height.
+![Passthrough Platforms](DocImages/Passthrough%20platforms.png)
 
 ### 2.2. Moving Platforms
 The moving platform was introduced in conjunction with the next obstacle to provide the first challenge the player faced. The unstationary nature of the obstacle provided an added layer of difficulty for the players with minor punishments if they failed to land onto the platform.
+![Moving Platforms](DocImages/Moving%20platform.png)
 
 ### 2.3. Spikes
 Spikes were introduced in conjuntion with moving platforms to create a pit that players could fall into. If players were unable to successfully jump from one platform to another, they would plummet into the spikes and lose 1 hp.
+![Spikes](DocImages/Spikes.png)
 
 ### 2.4. Acid
 Acid was introduced as the first major threat to the player. With its ability to instantly send the player back to the previous checkpoint, acid posed a much higher threat than spikes and provided much higher incentive to not fail.
+![Acid](DocImages/Acid.png)
 
 ### 2.5. Keys
 The first key is a crucial part of the level's design, without it the player would likely be lost and unable to complete the game. In the first section, the key is placed directly in the path of the player, allowing them to gain a clear visual of what their goal looked like so they knew what they were looking for.
+![Keys](DocImages/Key.png)
 
 ### 2.6. Health Pickups
 Health pickups are scattered all around the map, often in areas away from the main linear gameplay or in places heavily guarded by enemies. This was done to provide players with a risk/reward dilemma: continue the game with your current health level or risk it all for a high chance of survival.
+![Health Pickups](DocImages/Health%20pickup.png)
 
 ### 2.7. Checkpoints
 Checkpoints in the game signified 'safe-spaces' and spots where tension is relieved, signalling the end of the previous section and the beginning of a new one.
+![Checkpoints](DocImages/Checkpoint.png)
 
 ### 2.8. Spitters
 Spitters are the first enemy introduced in the game. They are stationary foes that are placed perched on high platforms to give them a vantage point where they can attack the player in a position that would be hard to eliminate them from.
+![Spitters](DocImages/Spitter.png)
 
 ### 2.9. Weapon Pickup (Gun)
 The gun is the first and primary weapon of the level. It is a ranged weapon that can easily dispatch any enemy in a single hit. The positioning of the weapon pickup was purposefully done to teach players the basic mechanics of how to fire and use the weapon against an enemy. By placing the weapon next to a spitter, players are easily clued in as to what they're supposed to do next.
+![Weapon Pickup(Gun)](DocImages/Weapon%20pickup%20gun.png)
 
 ### 2.10. Chompers
 The chomper was introduced as the second enemy that menaced the player through the level. Unlike its spitting counterpart, the chomper is mobile and attacks using a close range bite. As the chomper is far more dangerous in close range, they were often positioned in close-quarters areas where the player had little room to manuever, providing high amounts of tension and difficulty.
+![Chompers](DocImages/Chomper.png)
 
 ### 2.11. Weapon Pickup (Staff)
 The staff was the second weapon introduced to the level and is a melee weapon capable to breaking down destructible walls. The staff was positioned so that the player would encounter it after they had already seen various destructible walls, allowing them to use the staff to access previously blocked areas.
+![Weapon Pickup(Staff)](DocImages/Weapon%20pickup%20staff.png)
 
 ## 3. Spatiotemporal Design
 A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
