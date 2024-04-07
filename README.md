@@ -1,22 +1,12 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/YyUO0xtt)
 # COMP2150  - Level Design Document
-### Name: [your name]
-### Student number: [your student number] 
+### Name: [Chris Zhou]
+### Student number: [47777796] 
 
-This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
 
-Your document must include images. To insert an image into your documentation, place it in the "DocImages" folder in this repo, then place the below text where you want the image to appear:
-
-```
-![Place any alt text here](DocImages/<IMAGE NAME AND FILE EXTENSION>)
-```
-
-Example:
-
-![This is the alt text for an image!](DocImages/exampleimage.png)
 
 ## 1. Player Experience (~700 words)
-Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
+
 
 ### 1.1. Discovery
 What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
@@ -39,11 +29,6 @@ How does your level design facilitate autonomy and invite the player to explore?
 The design of my game facilitates autonomy and encourages exploration through the inclusion of choice for the player. In many areas in sections 2 and 3 of the level, players are offered the choice to travel to a section of the map that is off the main path or otherwise locked behind a destructible wall that players can double back to once they've found the appropriate equipment. These sections of the game offer the player a choice of high risk/high reward payoffs where the player can choose to test their skills for additional loot. If the player is unsuccessful, the highly difficult areas will likely kill them and lose them the game. However, if the player is skilled enough to overcome these optional challenges, they are rewarded with high amounts of loot(usually health) that makes their sacrifice worth it.
 
 ## 2. Core Gameplay (~400 words)
-A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
-
-Storyboards can be combined when multiple mechanics are introduced within a single encounter. Each section should include a sentence or two to briefly justify why you chose to introduce the mechanic/s to the player in that sequence.
-
-You should restructure the headings below to match the order they appear in your level.
 
 ### 2.1. Passthrough Platforms
 The passthrough platform is the first 'obstacle' the player faces when they start the game. In the level, the platform serves as more of a 'stepping-stone' that an obstacle, letting the player jump up and begin the first section properly. The passthrough platform was included to introduce players to the mechanic of jumping through platforms to land on them and gain height.
@@ -90,41 +75,39 @@ The staff was the second weapon introduced to the level and is a melee weapon ca
 ![Weapon Pickup(Staff)](DocImages/Weapon%20pickup%20staff.png)
 
 ## 3. Spatiotemporal Design
-A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
 
-No additional words are necessary for this section (any words should only be within your images/diagrams).
  
 ### 3.1. Molecule Diagram
+![Molecule Diagram](DocImages/Molecule%20diagram.png)
 
 ### 3.2. Level Map – Section 1
+![Annotated Section 1](DocImages/Annotated%20section%201.png)
 
 ### 3.3.	Level Map – Section 2
+![Annotated Section 2](DocImages/Annotated%20section%202.png)
 
 ### 3.4.	Level Map – Section 3
+![Annotated Section 3](DocImages/Annotated%20section%203.png)
 
 ## 4. Iterative Design (~400 words)
-Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
 
-You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
+The usage of an iterative design process has tremendously helped me in designing and improving my level. This design process allowed me to design each section of my level separately, granting me the opportunity to give equal amounts of undivided attention to craft each section meticulously. Through the usage of storyboarding and physical prototyping, I utilised early sketches on paper to roughly shape my desired outcomes before I replicated them in unity. By using this method of sketching the level beforehand, it allowed me to quickly brainstorm ideas for environmental hazards, traps and enemy placement as well as being able to effectively pinpoint the areas where I felt the design was inconvenient or erroneous. For example, during Section 1, the portion of the map right after the first spike trap received the first major changes in the final design.![Annotated Section 1](DocImages/Annotated%20section%201.png) During playtesting, I realised that the first key was often too easy to miss which would have made the entire rest of the game virtually unbeatable. To combat this design flaw, a direct linear path to the key was implemented so that players would not be able to miss the key and therefore wouldn't break the game entirely from the very beginning. The second major change to the game occured during the second section with the addition of an entirely new secret room just beneath the second checkpoint. ![Annotated Section 2](DocImages/Annotated%20section%202.png) This room was added after the prototypes were developed to provide players with the chance to explore their surroundings. Should players choose to travel off the beaten path, they would be rewarded with a room full of loot as well as enemies that would provide them a challenge. Ultimately, this room was implemented to give players a high risk/high reward opportunity to gain extra health and loot. Perhaps the most troubling aspect of my level design that could have used more iterative designing occurs during section 3 within the pathway that leads to the third key. ![Annotated Section 3](DocImages/Annotated%20section%203.png) While the correct path is not exactly hidden, it can be easily missed however and it is usually extremely hard or impossible to collect the third key if the player makes a wrong turn too late. Therefore, this aspect of the level design could have been improved through further iterative development.
 
 ## Generative AI Use Acknowledgement
 
-Use the below table to indicate any Generative AI or writing assistance tools used in creating your document. Please be honest and thorough in your reporting, as this will allow us to give you the marks you have earnt. Place any drafts or other evidence inside this repository. This form and related evidence do not count to your word count.
-An example has been included. Please replace this with any actual tools, and add more as necessary.
-
 
 ### Tool Used: ChatGPT
-**Nature of Use** Finding relevant design theory.
+**Nature of Use** 
 
-**Evidence Attached?** Screenshot of ChatGPT conversation included in the folder "GenAI" in this repo.
+**Evidence Attached?** 
 
-**Additional Notes:** I used ChatGPT to try and find some more relevant design theory that I could apply to my game. After googling them, however, I found most of them were inaccurate, and some didn't exist. One theory mentioned, however, was useful, and I've incorporated it into my work.
+**Additional Notes:**
 
 ### Tool Used: Example
-**Nature of Use** Example Text
+**Nature of Use** 
 
-**Evidence Attached?** Example Text
+**Evidence Attached?** 
 
-**Additional Notes:** Example Text
+**Additional Notes:** 
 
 
